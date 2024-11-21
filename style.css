@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: rgba(0,0,0,0.87);
+    line-height: 1.8;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.topbar{
+    position: fixed;
+    top:   0;
+    left:   0;
+    right: 0;
+    width: 100%;
+    background: white;
+    padding: 31px 87px;
+}
+
+.topbar nav{
+    float: left;
+}
+
+.topbar nav a{
+    color: #9F9F9F;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 53px;
+    line-height: 23px;
+}
+
+.topbar nav a:hover, .topbar nav a.active{
+    color: #000;
+}
+
+.social {
+    float: right;
+}
+
+.social a{
+    padding: 0 12px;
+    opacity: 0.5;
+}
+
+.social a:hover{
+    opacity: 1;
+}
+
+.main{
+    float: left;
+    background: white;
+    width: calc(100% - 375px);
+}
+
+.sidebar{
+    float: right;
+    background: #CCC;
+    width: 370px;
+    padding: 40px;
+
+}
+
+
+
+
+
